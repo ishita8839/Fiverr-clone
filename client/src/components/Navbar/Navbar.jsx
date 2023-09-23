@@ -60,15 +60,7 @@ const Navbar = () => {
   };
 
   const links = [
-    "Graphics & Design",
-    "Digital Marketing",
-    "Writing & Translation",
-    "Video & Animation",
-    "Music & Audio",
-    "Programming & Tech",
-    "Business",
-    "Lifestyle",
-    "AI Services",
+   
   ];
 
   const slideRight = () => {
@@ -105,15 +97,15 @@ const Navbar = () => {
               to="/"
               className="text-4xl select-none font-black tracking-tighter"
             >
-              <span>fiverr</span>
+              <span>InfoLex</span>
               <span className="text-primary">.</span>
             </Link>
           </div>
           <nav className="flex items-center justify-end gap-7 font-medium text-base">
             <Link to="/" className="cursor-pointer hidden lg:flex">
-              Fiverr Business
+              About Us
             </Link>
-            <div className="cursor-pointer hidden lg:flex">Explore</div>
+            <div className="cursor-pointer hidden lg:flex">Conntact</div>
             <div className="items-center gap-2 cursor-pointer hidden lg:flex">
               <span>
                 <TfiWorld />
@@ -121,13 +113,10 @@ const Navbar = () => {
               English
             </div>
             <span className="hidden lg:flex items-center gap-2 cursor-pointer">
-              <span>
-                <BsCurrencyDollar />
-              </span>
-              USD
+              Serivces
             </span>
             {!authUser?.isSeller && (
-              <p className="cursor-pointer hidden lg:flex">Become a Seller</p>
+              <p className="cursor-pointer hidden lg:flex">Become a Provider</p>
             )}
             {authUser ? (
               <>

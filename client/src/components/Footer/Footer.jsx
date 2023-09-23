@@ -71,14 +71,14 @@ const Footer = () => {
             <div className="flex items-center justify-start gap-4 flex-col md:flex-row">
               <div className="flex items-end justify-end select-none">
                 <h2 className="text-3xl select-none font-black tracking-tighter text-gray-500">
-                  fivver
+                  InfoLex
                 </h2>
                 <span className="border text-[6px] rounded-full w-3 h-3 flex items-center justify-center">
                   R
                 </span>
               </div>
               <p className="text-sm font-medium text-gray-400">
-                © Fiverr International Ltd. {year}
+                © InfoLex International Ltd. {year}
               </p>
             </div>
             <div className="flex items-center justify-end lg:gap-6 flex-col md:flex-row">
@@ -101,12 +101,7 @@ const Footer = () => {
                   </span>
                   English
                 </div>
-                <span className="flex items-center gap-2 cursor-pointer">
-                  <span>
-                    <BsCurrencyDollar />
-                  </span>
-                  USD
-                </span>
+               
                 <div className="w-10 h-10 border-2 rounded-full flex items-center justify-center hover:text-darkColor hover:border-none hover:bg-gray-200 transition-all duration-300 cursor-pointer">
                   <TbMan size={20} />
                 </div>

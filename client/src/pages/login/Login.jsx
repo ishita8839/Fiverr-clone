@@ -104,7 +104,7 @@ const Login = ({ show, setShow }) => {
           className="w-[406px] min-h-[450px] border border-[#F1F2F4] rounded-lg bg-white p-4 md:p-8 overflow-y-auto text-darkColor flex flex-col items-center relative"
         >
           <h2 className="w-full text-center text-2xl font-bold">
-            Sign In to Fiverr
+            Sign In to InfoLex
           </h2>
           <form
             onSubmit={handleSubmit}
@@ -122,7 +122,7 @@ const Login = ({ show, setShow }) => {
               onBlur={handleBlur}
               error={getError("username")}
               id="username"
-              placeholder="Johndoe"
+              placeholder="username"
               className="bg-white  border border-[#C7CBD1] w-full h-[40px] rounded px-4 focus:border-[1.5px] focus:border-primary outline-none text-sm"
             />
             <CustomizeInput

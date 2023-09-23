@@ -23,7 +23,7 @@ import marketIcon10 from "../assets/icons/market10.svg";
 export const cards = [
   {
     id: "001",
-    title: "AI Artists",
+    title: "AI Artist",
     description: "Add talent to AI",
     img: image,
   },
@@ -35,7 +35,7 @@ export const cards = [
   },
   {
     id: "003",
-    title: "WordPress",
+    title: "Logo",
     description: "Customize your site",
     img: image2,
   },

@@ -111,7 +111,7 @@ const Register = () => {
                 onBlur={handleBlur}
                 error={getError("username")}
                 id="username"
-                placeholder="Johndoe"
+                placeholder="username"
                 className="bg-white  border border-[#C7CBD1] w-full h-[40px] rounded px-4 focus:border-[1.5px] focus:border-primary outline-none text-sm"
               />
               <CustomizeInput
@@ -192,7 +192,7 @@ const Register = () => {
               <CustomizeInput
                 showLabel={false}
                 htmlFor="country"
-                label="country"
+                label="Country"
                 labelClassName="text-sm font-medium text-darkColor"
                 type="text"
                 name="country"
@@ -201,7 +201,7 @@ const Register = () => {
                 onBlur={handleBlur}
                 error={getError("country")}
                 id="country"
-                placeholder="e.g Nigeria"
+                placeholder="India"
                 className="bg-white  border border-[#C7CBD1] w-full h-[40px] rounded px-4 focus:border-[1.5px] focus:border-primary outline-none text-sm"
               />
               <button
@@ -221,12 +221,12 @@ const Register = () => {
             </div>
             <div className="flex items-start justify-start flex-col gap-4 w-full sm:flex-1">
               <h1 className="text-2xl text-darkColor font-semibold">
-                I want to be a seller
+                I want to be a Legal Provider
               </h1>
               <div className="w-full mt-8">
                 <label className="flex items-center justify-start w-full relative gap-4">
                   <span className="text-[#5D6771] text-[15px] leading-5 font-medium flex items-center justify-center select-none">
-                    Activate the seller account
+                    Activate the Provider account
                   </span>
                   <span className="flex items-center justify-center select-none action">
                     <input

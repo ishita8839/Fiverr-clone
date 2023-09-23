@@ -45,7 +45,8 @@ const Features = () => {
         <div className="flex lg:items-center flex-col items-start justify-start lg:flex-row lg:justify-between w-full gap-8 lg:gap-5">
           <div className="flex-1 flex items-start justify-start flex-col gap-5">
             <h2 className="text-xl sm:text-2xl lg:text-4xl font-bold text-darkColor">
-              A whole world of freelance <br /> talent at your fingertips
+             
+Discover the Legal Services Advantage <br /> 
             </h2>
             <div className="w-full flex items-start justify-start flex-col gap-5">
               {featureData.map((item, i) => (
